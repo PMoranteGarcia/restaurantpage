@@ -1,0 +1,74 @@
+  button {
+    color: #333;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+    background-color: #EF6F54;
+    color: #333;
+    border-radius: 24px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 20px #333;
+  }
+
+  button:hover {
+    background-color: #cfd8dc;
+  }
+
+  h4 {
+    font-size: 20pt;
+    font-weight: 400;
+    color: #FD5F3D;
+  }
+
+  p {
+    font-size: 20pt;
+    line-height: 1.7;
+    color: #FD5F3D;
+    font-family: 'Lora', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+    text-align: justify;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+
+  .grid {
+    display: grid;
+    max-width: 1200px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+  }
+
+  .imageDiv img {
+    width: 80%;
+    height: 80%;
+    border-radius: 15%;
+  }
+
+  .row h4 {
+    font-weight: bold;
+    font-size: 2.5em;
+  }
+
+  @media(max-width: 480px) {
+    .grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .row h4 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 15pt;
+    }
+
+    .imageDiv img {
+      width: 100%;
+    }
+  }

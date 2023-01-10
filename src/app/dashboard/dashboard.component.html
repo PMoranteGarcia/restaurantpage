@@ -1,0 +1,13 @@
+<h2>Top Sushi</h2>
+<div class="hero-section">
+    <div class="card-grid">
+        <a class="card" href="/detail/{{sushi.id}}" *ngFor="let sushi of sushis">
+            <div class="card__background" style="background-image: url({{sushi.img}})"></div>
+            <div class="card__content">
+                <h3 class="card__heading">{{sushi.name}}</h3>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- <app-sushi-search></app-sushi-search> -->

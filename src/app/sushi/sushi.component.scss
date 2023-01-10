@@ -1,0 +1,73 @@
+    input {
+      display: block;
+      width: 100%;
+      padding: .5rem;
+      margin: 1rem 0;
+      box-sizing: border-box;
+    }
+
+
+    .add-button {
+      padding: .5rem 1.5rem;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .add-button:hover {
+      color: white;
+      background-color: #42545C;
+    }
+
+    button.delete {
+      position: absolute;
+      left: 210px;
+      top: 5px;
+      background-color: white;
+      color: #525252;
+      font-size: 1.1rem;
+      margin: 0;
+      padding: 1px 10px 3px 10px;
+    }
+
+    button.delete:hover {
+      background-color: #525252;
+      color: white;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+      border-bottom: 1px solid #ccc;
+    }
+    
+    li:last-child {
+      border: none;
+    }
+    
+    li a {
+      text-decoration: none;
+      color: #000;
+    
+      -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+      transition: font-size 0.3s ease, background-color 0.3s ease;
+      display: block;
+      width: 200px;
+    }
+    
+    li a:hover {
+      font-size: 30px;
+      background: #f6f6f6;
+    }
+
+    .list {
+      width: 200px;
+      margin: 30px;
+    }

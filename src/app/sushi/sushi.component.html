@@ -1,0 +1,33 @@
+<h2>My Sushi</h2>
+<div class="list">
+    <ul>
+        <li *ngFor="let sushi of sushi">
+            <a href="/detail/{{sushi.id}}">{{sushi.name}}</a>
+        </li>
+    </ul>
+</div>
+
+
+<!-- <ol class="alternating-colors">
+    <li *ngFor="let sushi of sushi">
+        <a href="/detail/{{sushi.id}}">{{sushi.name}}</a>
+    </li>
+</ol> -->
+
+<!-- <ul class="sushi">
+    <li *ngFor="let sushi of sushi">
+        <a routerLink="/detail/{{sushi.id}}">
+            <span class="badge">{{sushi.id}}</span> {{sushi.name}}
+        </a>
+        <button type="button" class="delete" title="delete sushi" (click)="delete(sushi)">x</button>
+    </li>
+</ul> -->
+
+<div>
+    <label for="new-sushi">Sushi name: </label>
+    <input id="new-sushi" #sushiName/>
+
+    <button type="button" class="add-button" (click)="add(sushiName.value); sushiName.value=''">
+        Add sushi
+    </button>
+</div>

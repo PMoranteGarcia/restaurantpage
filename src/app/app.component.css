@@ -1,0 +1,30 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+nav{
+  height: 60px;
+  text-align: center;
+  margin-bottom: 25px;
+  padding:1%;
+}
+
+nav a {
+    color: #333;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+    background-color: #EF6F54;
+    color:#333;
+    border-radius: 24px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 20px #333;
+}
+
+nav a:hover{
+  background-color: #99817C;
+}

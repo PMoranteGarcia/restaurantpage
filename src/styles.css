@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+    color: #B01F00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-shadow: 6px 6px 20px #080706;
+    text-align: center;
+    
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3em !important;
+    }
+    h2 {
+        font-size: 2em !important;
+    }
+}
+
+h2 {
+	font-size: 3em;
+	margin-top: 0;
+	padding-top: 0;
+	text-align: center;
+	color:#B01F00;
+	font-weight: bold;
+	text-shadow: 2px 2px 20px #080706;
+  }
+
+body {
+    margin:2em;
+    background-color: #2E2E2E;
+}
+body, input[type="text"], button {
+    color: #333;
+    font-family: Cambria, Georgia;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
